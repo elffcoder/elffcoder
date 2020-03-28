@@ -1,0 +1,227 @@
+if game.Players.LocalPlayer:IsFriendsWith(1040114671) then
+game.StarterGui:SetCore("SendNotification", {
+Title = "Whitelist.";
+Text = "Whitelisted successfully.";
+Icon = "rbxassetid://781001307";
+Duration = 10;
+}) this
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local funcs = Instance.new("TextButton")
+local fov = Instance.new("TextButton")
+local aimbot = Instance.new("TextButton")
+local noslow = Instance.new("TextButton")
+local speed = Instance.new("TextButton")
+local Frame_2 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Frame_3 = Instance.new("Frame")
+local Frame_4 = Instance.new("Frame")
+local Frame_5 = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.507302821, 0, 0.152173936, 0)
+Frame.Size = UDim2.new(0, 340, 0, 200)
+
+funcs.Name = "funcs"
+funcs.Parent = Frame
+funcs.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
+funcs.BorderSizePixel = 0
+funcs.Position = UDim2.new(0.367647052, 0, 0.0375806428, 0)
+funcs.Size = UDim2.new(0, 90, 0, 19)
+funcs.Text = "Functions"
+funcs.TextColor3 = Color3.fromRGB(0, 0, 0)
+funcs.TextSize = 13.000
+
+fov.Name = "fov"
+fov.Parent = Frame
+fov.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
+fov.BorderSizePixel = 0
+fov.Position = UDim2.new(0.0441176482, 0, 0.267419338, 0)
+fov.Size = UDim2.new(0, 110, 0, 40)
+fov.Text = "Increased Fov"
+fov.TextColor3 = Color3.fromRGB(0, 0, 0)
+fov.TextSize = 11.000
+fov.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/a2S5tZSx'),true))()
+end)
+
+aimbot.Name = "aimbot"
+aimbot.Parent = Frame
+aimbot.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
+aimbot.BorderSizePixel = 0
+aimbot.Position = UDim2.new(0.0441176482, 0, 0.580645144, 0)
+aimbot.Size = UDim2.new(0, 110, 0, 40)
+aimbot.Text = "Aimbot"
+aimbot.TextColor3 = Color3.fromRGB(0, 0, 0)
+aimbot.TextSize = 14.000
+aimbot.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/RgBGDLGb'),true))()
+end)
+
+noslow.Name = "noslow"
+noslow.Parent = Frame
+noslow.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
+noslow.BorderSizePixel = 0
+noslow.Position = UDim2.new(0.632352948, 0, 0.262419343, 0)
+noslow.Size = UDim2.new(0, 110, 0, 40)
+noslow.Text = "NoSlow"
+noslow.TextColor3 = Color3.fromRGB(0, 0, 0)
+noslow.TextSize = 14.000
+noslow.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/dXZen89A'),true))()
+end)
+
+speed.Name = "speed"
+speed.Parent = Frame
+speed.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
+speed.BorderSizePixel = 0
+speed.Position = UDim2.new(0.632352948, 0, 0.580645144, 0)
+speed.Size = UDim2.new(0, 110, 0, 40)
+speed.Text = "*removed*"
+speed.TextColor3 = Color3.fromRGB(0, 0, 0)
+speed.TextSize = 14.000
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0, 0, -0.100000001, 0)
+Frame_2.Size = UDim2.new(0, 340, 0, 20)
+Frame.Draggable = true
+
+TextLabel.Parent = Frame_2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0176470596, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 334, 0, 20)
+TextLabel.Text = "Customs GUI"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 15.000
+
+Frame_3.Parent = Frame
+Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0, 0, 0.174999997, 0)
+Frame_3.Size = UDim2.new(0, 340, 0, 7)
+
+Frame_4.Parent = Frame
+Frame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0.494117647, 0, 0.209999993, 0)
+Frame_4.Size = UDim2.new(0, 9, 0, 135)
+
+Frame_5.Parent = Frame
+Frame_5.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
+Frame_5.BorderSizePixel = 0
+Frame_5.Position = UDim2.new(0, 0, 0.889999926, 0)
+Frame_5.Size = UDim2.new(0, 340, 0, 21)
+
+TextLabel_2.Parent = Frame_5
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Size = UDim2.new(0, 340, 0, 22)
+TextLabel_2.Text = "Script was made by: elff#1508. Credits to Tyris#0001"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 10.000
+
+-- Scripts:
+
+local function FNKGZHA_fake_script() -- Frame_2.LocalScript 
+	local script = Instance.new('LocalScript', Frame_2)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+	 script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	 
+	 counter = counter + 0.01
+	end
+end
+coroutine.wrap(FNKGZHA_fake_script)()
+local function FZBC_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+	 script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	 
+	 counter = counter + 0.01
+	end
+end
+coroutine.wrap(FZBC_fake_script)()
+local function VORYT_fake_script() -- Frame_3.LocalScript 
+	local script = Instance.new('LocalScript', Frame_3)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+	 script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	 
+	 counter = counter + 0.01
+	end
+end
+coroutine.wrap(VORYT_fake_script)()
+local function VXZETN_fake_script() -- Frame_4.LocalScript 
+	local script = Instance.new('LocalScript', Frame_4)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+	 script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	 
+	 counter = counter + 0.01
+	end
+end
+coroutine.wrap(VXZETN_fake_script)()
+local function GXOAO_fake_script() -- Frame_5.LocalScript 
+	local script = Instance.new('LocalScript', Frame_5)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+	 script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	 
+	 counter = counter + 0.01
+	end
+end
+coroutine.wrap(GXOAO_fake_script)()
+local function AYPKW_fake_script() -- TextLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_2)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+	 script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	 
+	 counter = counter + 0.01
+	end
+end
+coroutine.wrap(AYPKW_fake_script)()
+
+else
+game.Players.LocalPlayer:Kick("Not whitelisted")
+end
